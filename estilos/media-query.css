@@ -18,6 +18,8 @@ Grandes telas: acima de 1200px
 
     section#login{
         width: 80vw;
+        height: 280px;
+
      }
 
      section#login > #imagem{
@@ -33,13 +35,15 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
-    
+    /*configuração para desktop*/
+
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
         width: 950px;
+        height: 350px;
     }
     #login > div#imagem {
         float: right;
@@ -55,6 +59,7 @@ Grandes telas: acima de 1200px
         font-size: 2em;
     }
     #formulario > p{
-        font-size: 0.8em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
